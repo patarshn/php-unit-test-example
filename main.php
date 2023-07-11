@@ -17,4 +17,4 @@ echo $string->toToggle() . PHP_EOL;
 
 // Create CSV
 $csv_file = $string->generateCSV();
-echo "CSV created: $csv_file" . PHP_EOL;
+echo "CSV created!" . PHP_EOL;
