@@ -13,7 +13,7 @@ $string = new StringUtils($text);
 echo $string->toUpper() . PHP_EOL;
 
 // Get string to toggle case
-echo $string->toToggle() . PHP_EOL;
+echo $string->toAlternate() . PHP_EOL;
 
 // Create CSV
 $csv_file = $string->generateCSV();

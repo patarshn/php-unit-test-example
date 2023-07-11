@@ -11,7 +11,7 @@ class StringUtils {
         return strtoupper($this->string);
     }
 
-    public function toToggle() {
+    public function toAlternate() {
         $result = '';
         $length = strlen($this->string);
         for ($i = 0; $i < $length; $i++) {

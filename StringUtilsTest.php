@@ -18,10 +18,10 @@ class StringUtilsTest extends TestCase
         $this->assertEquals("HELLO WORLD", $result);
     }
 
-    public function testToToggle()
+    public function testToAlternate()
     {
         $this->stringUtils->__construct("hello world");
-        $result = $this->stringUtils->toToggle();
+        $result = $this->stringUtils->toAlternate();
         $this->assertEquals("hElLo wOrLd", $result);
     }
 
